@@ -1,0 +1,43 @@
+/* PSEUDO ELEMENTOS 
+é uma forma de estilizar algumas parte do nosso elemento que agente talvez não conseguissemos stilizar de outra forma 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+
+        color: blue;
+}
+
+a::before /* significa antes*/{
+    content: "😁";
+}
+
+a::after /* before significa depois*/ {
+        content: "🚀";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

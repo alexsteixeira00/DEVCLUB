@@ -1,0 +1,27 @@
+/* VAMOS FALAR DE Position
+        position: static (padrão)- não aceita valores de top, botton e left.
+        position: fixed- fixa o elemento na tela
+        position: sticky- age como um adesivo, fixa o elemento só onde eu determinar 
+        position: relative- posição relativa a posição inicial dele
+        position: absolute- posição absoluta (fixa) a algum elemento ou a página
+                                SE não tiver pai./. pai for static -> posiciona referente a página  
+                                SE o pai NÂO for static -> Posiciona referente ao pai
+                                
+                                 Propriedades:
+              top
+              botton
+              left
+              rigth
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li:nth-child(5){
+    color: red;
+}
+
+
