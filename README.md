@@ -10,5 +10,5 @@
 
 <h4>Imagens dos Projetos</h4>
 <p>desktop and mobile</p>
-<img src="https://github.com/alexsteixeira00/DEVCLUB/blob/main/Easy%20Shopping/assets/desktop.png?raw=true" />
-<img src="
+<img src="https://github.com/alexsteixeira00/DEVCLUB/blob/main/Easy%20Shopping/assets/desktop.png?raw=true" width="350px" />
+<img src="https://github.com/alexsteixeira00/DEVCLUB/blob/main/Easy%20Shopping/assets/mobile.png?raw=true" width="150px" eigth="150px" />
