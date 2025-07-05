@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+
+}
+
+body {
+    background: url(https://pastelarialuzbr.com.br/img/bgWoodPastel.jpg);
+    text-transform:uppercase;
+    display:flex;
+    flex-direction:column;
+    align-items:center;;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 58%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#topo {
+    display: flex;
+    background: #458801;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+#delivery {
+    display: flex;
+    width: 430px;
+    height: 30px;
+    align-items: center;
+    font-size: 9pt;
+}
+
+#icones {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    p {
+        display:block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+    }
+
+#icones img {
+    width: 35px;
+    height: 35px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho img {
+    width: 100%;
+    height: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.cabecalho h1 {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #458801;
+    margin-top: 8px;
+}
+
+.cabecalho h1 b {
+    font-size: 40px;
+}
+
+h1 {
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 0,67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+nav {
+    display:block
+    unicode-bidi: isolate;
+}
+
+.menu-nave {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 37px;
+}
+
+.menu-nave ul {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;   
+}
+
+.menu-nave ul li {
+    padding: 30px;
+    transition: background-color .2s linear;
+    border: solid 1px transparent;
+    font-size: 1.2rem;
+    margin-left: -21px;
+    margin-right: -18px;
+}
+
+#btn1 {
+    background: #ee3539;
+}
+
+#btn1:hover {
+    background-color: rgba(238, 53, 57, 0.4);
+    cursor: pointer;
+    border: none;
+}
+
+#btn2 {
+    background: #458801;
+}
+
+#btn2:hover {
+    background-color: rgba(49, 145, 30, 0.4);
+    cursor: pointer;
+    border: none;
+}
+
+#btn3 {
+    background: #ee3539;
+}
+
+#btn3:hover {
+    background-color: rgba(238, 53, 57, 0.4);
+    cursor: pointer;
+    border: none;
+}
+
+#btn4 {
+    background: #458801;
+}
+
+#btn4:hover {
+    background-color: rgba(49, 145, 30, 0.4);
+    cursor: pointer;
+    border: none;
+}
+
+#slider {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 19s slider infinite;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.7rem;
+    list-style: none;
+}
+
+
+figure {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    animation: 19s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+    height: 400px;
+}
+img {
+    overflow-clip-margin: border-box;
+    overflow: clip;
+}
+
+.secao{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 28px;
+    color: #b4282b;
+    display: block;
+    font-size: 2.5rem;
+    margin-block-start: -0.17em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+#cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.imagens{
+    margin: 2px;
+}
+
+.imagens img{
+    width: 420px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.imagem2 {
+    width: 233px;
+    margin-top: 5px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+footer {/* 
+    background-color: #458801;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end/* imagem à esquerda, ícone à direita */
+  display: flex;
+  justify-content: space-between; /* imagem à esquerda, ícone à direita */
+  align-items: center; /* alinha verticalmente */
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+
+#redessociais {
+  width: 50px;
+  height: 50px;
+}
+
+.icone {
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+.conteudo{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}
+
+#horario {
+    width: 30px;
+    height: 100px;
+    font-size: 9pt;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+strong {
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
